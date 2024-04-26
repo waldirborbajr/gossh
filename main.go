@@ -67,4 +67,8 @@ func main() {
 	if err != nil {
 		log.Fatalf("Failed to execute command: %v", err)
 	}
+	// err = session.Run("exit")
+	// if err != nil {
+	// 	log.Fatalf("Failed to execute command: %v", err)
+	// }
 }
